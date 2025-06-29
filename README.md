@@ -37,5 +37,13 @@ pip install mmdet==2.26.0 mmsegmentation==0.29.1 mmdet3d==1.0.0rc6
 f.Install stage-1
 ```
 cd ~
-git clone
+git clone https://github.com/HITXCI/w-trk.git
+pip install -r requirements.txt
 ```
+## environment setup for stage-2
+```
+cd stage2
+pip install requirements.txt
+```
+The complete code will be released in the future after further organization.
+
